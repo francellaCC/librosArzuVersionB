@@ -341,7 +341,7 @@ padding: 1px;
 
 .subcategoria a {
   padding: 6px 0;
-  text-decoration: none;
+ 
   color: #333;
   font-size: 14px;
   transition: color 0.2s ease;
@@ -371,4 +371,9 @@ padding: 1px;
 .subcategoria a.active {
   color: #6c5ce7;
   font-weight: bold;
+}
+
+
+.cat{
+   text-decoration: none;
 }
