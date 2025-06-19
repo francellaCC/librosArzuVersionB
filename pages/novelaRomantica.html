@@ -39,6 +39,10 @@
       <div class="div_logo">
         <img src="../imagenes/logo (1).png" alt="Logo Libros Arzu" class="logo" />
       </div>
+      <!-- Hamburguesa solo visible en móvil -->
+      <button id="menuToggle" class="hamburguesa-btn">
+        ☰
+      </button>
       <div class="TopBar_center__bP0o5">
         <nav class="menu">
           <ul class="nav-links">
@@ -62,7 +66,7 @@
 
   <div class="page-content">
 
-    <aside class="sidebar">
+    <aside class="sidebar" id="sidebar">
       <div id="toggleCategorias" class="dropDown_list">
         <h2>Categorías</h2>
       </div>
@@ -148,13 +152,12 @@
           </div>
         </div>
       </div>
-
     </aside>
+     <!-- Overlay para fondo oscuro -->
+    <div class="overlay" id="overlay"></div>
 
     <main class="catalog">
-      <div style="width: 1127px;
-        margin-left: auto !important;
-        margin-right: auto !important;">
+      <div >
         <h2>NOVELA ROMANTICA</h2>
         <div class="product-grid">
           <div class="product-card">

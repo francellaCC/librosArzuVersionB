@@ -29,4 +29,22 @@ document.addEventListener("DOMContentLoaded", function () {
       if (categoria) categoria.classList.add('open');
     }
   });
+
+
+const toggleBtn = document.getElementById('menuToggle');
+const sidebar = document.getElementById('sidebar');
+const overlay = document.getElementById('overlay');
+
+toggleBtn.addEventListener('click', () => {
+  sidebar.classList.toggle('show');
+  overlay.classList.toggle('show');
+});
+
+// Cerrar al hacer clic en el fondo oscuro
+overlay.addEventListener('click', () => {
+  sidebar.classList.remove('show');
+  overlay.classList.remove('show');
+});
+
+
 });

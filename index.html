@@ -36,12 +36,19 @@
 <body>
   <header class="topbar">
     <div class="menu-container">
+
       <div class="div_logo">
+
         <img src="./imagenes/logo (1).png" alt="Logo Libros Arzu" class="logo" />
       </div>
+      <!-- Hamburguesa solo visible en móvil -->
+      <button id="menuToggle" class="hamburguesa-btn">
+        ☰
+      </button>
       <div class="TopBar_center__bP0o5">
         <nav class="menu">
           <ul class="nav-links">
+
             <li><a href="#"><img src="/imagenes/home.svg" alt="" srcset="">Home</a></li>
             <li><a href="#"><img src="./imagenes/grid.svg" alt="" srcset=""> Catalogo</a></li>
             <li><a href="#"><span class="material-icons">
@@ -56,12 +63,15 @@
             </svg>
           </button>
         </nav>
+
       </div>
     </div>
   </header>
 
   <div class="page-content">
-    <aside class="sidebar">
+
+    <aside class="sidebar" id="sidebar">
+
       <div id="toggleCategorias" class="dropDown_list">
         <h2>Categorías</h2>
       </div>
@@ -149,6 +159,8 @@
       </div>
 
     </aside>
+    <!-- Overlay para fondo oscuro -->
+    <div class="overlay" id="overlay"></div>
 
     <main class="catalog">
       <div>
